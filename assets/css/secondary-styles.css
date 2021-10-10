@@ -1,11 +1,8 @@
 .hero {
-  background-image: url("../images/hero-bg.jpeg");
-  background-size: cover;
-  background-position: bottom;
-  position: relative;
-  height: auto;
-  text-align: center;
-  margin-bottom: 40px;
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
 
 }
 
@@ -21,12 +18,12 @@
 
 .secondary-content {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     color: #024e76;
 }
 
 .secondary-content h3{
-    font-size: 16px;
+    font-size: 25px;
     margin: 20px 0;
 }
 
@@ -40,7 +37,7 @@
     margin: 15px 20px;
 }
 
-.secondary-content li{
+.secondary-content li {
     color: #39a6b2;
     margin: 10px 0;
 }

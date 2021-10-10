@@ -18,7 +18,6 @@ header h1{
     color: #fce138;
     margin: 0;
     display: inline; 
-    <div >
 }
 
 header a{
@@ -28,7 +27,7 @@ header a{
 
 header nav{
     float: right;
-    margin:7px 0px;
+    margin:7px 0;
 }
 
 header nav ul li{
@@ -66,7 +65,7 @@ footer a{
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpeg");
+    background-image: url('../images/hero-bg.jpeg');
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -89,8 +88,6 @@ footer a{
 .hero-form h3{
     font-size: 24px;
     margin: 0%;
-    font-weight: bold;
-    
 }
 
 .hero-form p{
@@ -111,6 +108,14 @@ footer a{
     margin: 0 5px;
 }
 
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
 .intro {
     text-align: center;
 }
@@ -126,6 +131,30 @@ footer a{
 .steps {
     text-align: center;
     background: #fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color:#024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
 }
 
 .section-title {
@@ -145,30 +174,6 @@ footer a{
     border-color: #39a6b2;
   }
   
-  .steps div {
-      margin-bottom: 80px;
-  }
-
-  .steps img {
-      width: 15%;
-      margin: 10px 0;
-  }
-
-  .steps h3 {
-      color:#024e76;
-      font-size: 46px;
-      margin-top: 10px;
-  }
-
-  .steps p {
-      color: #39a6b2;
-      font-size: 23px;
-  }
-
-  .steps span {
-      font-size: 38px;
-  }
-
   .trainers {
     text-align: center;
 }
